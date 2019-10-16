@@ -99,6 +99,7 @@ footer a {
     list-style-type: none;
     color: green;
     text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 #design-selection, #design-archives {
