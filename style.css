@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/* 
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} */
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    padding-left: 3px;
+}
+
+
+h2 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    background: url(zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 750px;
+    font-size: 18px;
+    color: white;
+    
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 4px black;
+    text-transform: uppercase;
+
+}
+
+header {
+    background-image: url(huntington.png);
+    padding: 60px;
+    background-size: 1900px 300px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+#zen-participation, #zen-benefits {
+    background-color: rgb(158, 206, 86);
+    background-image: url(bamboo.png);
+    padding: 0.1px;
+}
+
+#zen-requirements [role="contentinfo"] a {
+    font-family: 'Satisfy', cursive;
+    font-size: 42px;
+    color: white;
+}
+
+#zen-requirements [role="contentinfo"] {
+    background-color: rgb(158, 206, 86);
+    font-size: 15px;
+    margin-bottom: 0
+}
+
+footer {
+    background-color: rgb(124, 140, 196);
+    padding: 18px;
+    text-align: center;
+}
+
+footer a {
+    font-size: 40px;
+    text-decoration: none;
+    word-spacing: 30px;
+    color: white;
+}
