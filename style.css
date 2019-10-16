@@ -8,10 +8,15 @@ h2 {
     background-size: contain;
     
 } */
+*{
+    padding: 0;
+    margin: 1;
+}
 
 p {
     font-family: 'IBM Plex Mono', monospace;
-    padding-left: 3px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
@@ -21,7 +26,7 @@ h2 {
     background: url(zen.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: 750px;
+    background-position-x: 600px;
     font-size: 18px;
     color: white;
     
@@ -48,12 +53,14 @@ header {
 
 h3 {
     font-weight: 500;
+    padding-left: 100px;
 }
 
 #zen-participation, #zen-benefits {
-    background-color: rgb(158, 206, 86);
+    background-color: rgb(120, 158, 62);
     background-image: url(bamboo.png);
     padding: 0.1px;
+    color: white;
 }
 
 #zen-requirements [role="contentinfo"] a {
@@ -63,14 +70,15 @@ h3 {
 }
 
 #zen-requirements [role="contentinfo"] {
-    background-color: rgb(158, 206, 86);
+    background-color: rgb(120, 158, 62);
     font-size: 15px;
-    margin-bottom: 0
+    margin-bottom: 0;
+    text-align: center;
 }
 
 footer {
     background-color: rgb(124, 140, 196);
-    padding: 18px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -79,4 +87,44 @@ footer a {
     text-decoration: none;
     word-spacing: 30px;
     color: white;
+
+}
+
+#select, h3 {
+    color:white;
+    font-size: 0px;
+}
+
+#design-selection, li, a {
+    list-style-type: none;
+    color: green;
+    text-decoration: none;
+}
+
+#design-selection, #design-archives {
+    background-color: rgb(214, 226, 222);
+    padding: 10px;
+}
+
+#zen-resources {
+    background-color:rgb(140, 179, 150);
+    background-image: url(bamboo.png);
+}
+
+#zen-resources, a {
+    columns: 2;
+    text-decoration: none;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+
+}
+
+[role = navigation] li {
+    outline: none;
+    display: inline-block;
+    width:48%;
+    text-align: center;
+    line-height: 3;
+    border-bottom: 1px solid grey;
 }
